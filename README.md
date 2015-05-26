@@ -71,6 +71,8 @@ Remember to save your work, **frequently**!  Also remember to shut down the Rasp
 
 ## (Loose!) Session Plan
 
+Item | Time | Task
+--- | --- | ---
 1 | 5 mins | Introduction and outline of the Scratch GPIO Hackathon - create something **amazing** out of Scratch, GPIO and a few basic electronic components!  **Hightlight important safety aspect of correctly connecting GPIO pins**
 2 | 5 mins | Make some teams!  Self organised teams / different skills / different abilities.  Encourage teams to brainstorm ideas of what sort of **amazing** Scratch GPIO projects could be created!
 3 | 10 mins | Basics of the electronic components.  Breadboard with no bread?  Which breadboard strips are connected?  Using the Adafruit T-Cobbler and jump out to another area of the breadboard.  Resistor and LED goes in pairs.  Are both sides of an LED equal?
