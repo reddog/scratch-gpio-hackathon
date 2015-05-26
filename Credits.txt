@@ -1,0 +1,25 @@
+CamJam Scratchathon
+
+Credits
+
+
+Raspberry-Pi-GPIO-Layout-Model-B-Plus-312x1024.png
+Raspberry-Pi-GPIO-Layout-Worksheet - RaspberryPiSpy.pdf
+
+http://www.raspberrypi-spy.co.uk/2014/07/raspberry-pi-b-gpio-header-details-and-pinout/
+Matt Hawkins, Raspberry Pi Spy
+
+Creative Commons Attribution-NonCommercial 3.0 Unported License
+http://creativecommons.org/licenses/by-nc/3.0/deed.en_GB
+
+
+
+
+Scratch GPIO cheat sheet.gif
+
+http://simplesi.net/scratchgpio/visual-command-guide/
+
+Simon Walters, Creative Commons
+
+
+
