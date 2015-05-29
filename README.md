@@ -88,6 +88,8 @@ In order to control this circuit in ScratchGPIO you will need to make use of the
 
 ![Push Button](Images/Hello-World-Button.png)
 
+The resistor is 10K Ohm with colour bands brown-black-black-red.
+
 In order to respond to button pushes in ScratchGPIO you will need to make use of the following Scratch block:
 
 ![ScratchGPIO Block Read Pin Value](Images/ScratchGPIO-Block-Read-Pin-Value.png)
@@ -98,6 +100,7 @@ The important part is the *pin22 sesor value* part.  This part can be used withi
 
 1. How else can *sensor value* be used in Scratch to control a Scratch programme?
 2. Can any other GPIO pins be used to read the push button state (pressed or un-pressed)?  (tip, as before, it's not all of them!)
+3. Why is the resistor required?  How does your Scratch programme change if you don't have the resistor?
 
 
 
