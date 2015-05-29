@@ -23,7 +23,22 @@ The electronic components available are:
 - a push button(s)
 - a buzzer (or a speaker could be used)
 - resistors
-   
+
+
+## GPIO Pins
+
+Each GPIO pin has a different function.  There are:
+
+- power pins (of two different voltages)
+- ground pins (or negative pins)
+- various other *general purpose input/output* pins (GPIO)
+
+**Only use the 3.3V positive pins for these circuits.**
+
+![GPIO Pinout](Images/GPIO-pinout.png)
+
+GPIO Pinout image taken from [Phil Howard](https://twitter.com/gadgetoid)'s [GPIO Pinout](http://pi.gadgetoid.com/pinout). 
+
 
 ## Starters For Ten!
 
