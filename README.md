@@ -6,16 +6,11 @@
 ----------
 
 
-Resources for [Raspberry Pi](http://www.raspberrypi.org/) [Scratch](http://scratch.mit.edu/) GPIO Hackathon using basic electronics (à la [CamJam](http://camjam.me/)'s [EduKit](http://camjam.me/edukit))
+Resources for [Raspberry Pi](http://www.raspberrypi.org/) [Scratch](http://scratch.mit.edu/) GPIO Hackathon using basic electronics (à la [CamJam](http://camjam.me/)'s [EduKit](http://camjam.me/edukit) or [ExploreSTEM](http://www.explorestem.co.uk/)'s [IET](http://www.theiet.org/) Raspberry Pi kits)
 
 Session leader:
 
 - David Bower [@rddave](https://twitter.com/rddave)
-
-Session facilitators:
-
-- Ed Bye [@ByeEd2](https://twitter.com/ByeEd2)
-- Andy Melder [@SouthendRpiJams](https://twitter.com/SouthendRPiJams)
 
 
 ----------
@@ -30,18 +25,68 @@ The electronic components available are:
 - resistors
    
 
-## Resources
+## Starters For Ten!
 
-Programmers are provided with sheets covering the following topics:
+To give our young programmers a starting point, here are *Hello World* electronics examples.  Use these as a starting point to get to grips with how to use basic electronics with a breadboard.
 
-- [ScratchGPIO Command Guide](http://simplesi.net/scratchgpio/visual-command-guide/) from [Simon Walters](https://twitter.com/cymplecy)
+Once you've got the hang of these examples, modify and combine the circuits to interact with your own fantastic Scratch project.
 
-- [GPIO pinouts](http://pi.gadgetoid.com/pinout) from [Phil Howard](https://twitter.com/gadgetoid)
-
-These *cheat sheet* resources are just to get those unfamiliar with the GPIO header and Scratch GPIO up and running.
+The [Adafruit](https://www.adafruit.com/) [Pi T-Cobbler](https://www.adafruit.com/products/1754) used may be smaller than that shown in these example layouts - just make sure the same pins are used!  The Cobbler is a handy way of extending Raspberry Pi's GPIO pins to the breadboard, but jumper wires straight from the GPIO pins can be used without a Cobbler.
 
 
-### Additional resources that are available:
+### Always-on LED
+
+![Always-on LED](Images/Hello-World-LED.png)
+
+The resistor is 330 Ohm with colour bands orange-orange-red.
+
+This circuit demonstrates the following:
+
+- a circuit has to be complete, connecting negative through to positive - **trace with your finger the complete circuit, what components does it go through?**
+- the LED has different *legs*, one positive, one negative - **which are which?  There are three ways to tell!**
+- LEDs require a *current limiting* resistor - this protects the LED
+
+#### Questions on this circuit
+
+1. which pins are connected to each other when the breadboard is empty?
+2. does it matter where, exactly, the LED circuit is located?  Will it still work if it's move left or right along the bread board?
+3. is this circuit controllable from Scratch?
+
+
+### Scratch-Controllable LED
+
+![Scratch-Controllable LED](Images/Hello-World-Controllable-LED.png)
+
+Alter the circuit from above to make a Scratch-controllable LED.  Only *two* modifications are required!
+
+In order to control this circuit in ScratchGPIO you will need to make use of the following Scratch blocks, **one at a time, not together!**:
+
+![ScratchGPIO Blocks Broadcast On/Off](Images/ScratchGPIO-Blocks-Broadcast-Pin11-On-Off.png)
+
+#### Questions on this circuit
+
+1. Which GPIO pin number is used to turn on/off the LED?
+2. Can any other GPIO pins be used to control the LED?  (tip, it's not all of them!)
+
+
+### Push Button
+
+![Push Button](Images/Hello-World-Button.png)
+
+In order to respond to button pushes in ScratchGPIO you will need to make use of the following Scratch block:
+
+![ScratchGPIO Block Read Pin Value](Images/ScratchGPIO-Block-Read-Pin-Value.png)
+
+The important part is the *pin22 sesor value* part.  This part can be used within other Scratch blocks, for example *If*.  **Note**, the example layout above does *not* use pin 22!
+
+#### Questions on this circuit
+
+1. How else can *sensor value* be used in Scratch to control a Scratch programme?
+2. Can any other GPIO pins be used to read the push button state (pressed or un-pressed)?  (tip, as before, it's not all of them!)
+
+
+
+## Additional Resources That Are Available
 
 - [Introduction to the GPIO header](http://www.raspberrypi.org/documentation/usage/gpio/) from the [Raspberry Pi Foundation](https://twitter.com/raspberry_pi)
 

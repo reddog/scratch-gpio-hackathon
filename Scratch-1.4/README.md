@@ -1,4 +1,4 @@
-# scratch-gpio-hackathon
+# scratch-gpio-hackathon/Scratch-1.4
 ## [Scratch 1.4](https://scratch.mit.edu/scratch_1.4/)
 This folder contains resources provided by the Scratch team at MIT
 

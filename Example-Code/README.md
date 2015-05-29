@@ -1,4 +1,4 @@
-# scratch-gpio-hackathon
+# scratch-gpio-hackathon/Example-Code
 ## Example Code
 The following Scratch programs were created by [Sean McManus](https://twitter.com/musicandwords).  (c) Sean McManus.
 

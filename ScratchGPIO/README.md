@@ -1,4 +1,4 @@
-# scratch-gpio-hackathon
+# scratch-gpio-hackathon/ScratchGPIO
 ## [ScratchGPIO](http://simplesi.net/scratchgpio/)
 
 - [ScratchGPIO](http://simplesi.net/scratchgpio/) Command Guide:  [simplesi.net/scratchgpio/visual-command-guide](http://simplesi.net/scratchgpio/visual-command-guide)
